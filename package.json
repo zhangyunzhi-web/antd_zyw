@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev": "vitepress dev site",
+    "build:site": "vitepress build site",
+    "preview": "vitepress preview site"
   },
   "keywords": [],
   "author": "Zyw_w",
@@ -17,15 +20,28 @@
     "@mistjs/tsconfig": "^1.0.0",
     "@mistjs/tsconfig-vue": "^0.0.3",
     "@types/node": "^18.15.5",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
     "eslint": "^8.36.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.5",
     "typescript": "^5.0.2",
     "vite": "^4.2.1",
+    "vite-plugin-vitepress-demo": "2.0.0-alpha.8",
+    "vitepress": "1.0.0-alpha.61",
     "vitest": "^0.29.7"
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": "eslint --fix"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "dependencies": {
+    "vue": "^3.2.0"
   }
 }
