@@ -1,11 +1,11 @@
 {
-  "name": "zywUI_vue",
+  "name": "zyw_vue",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "prepare":"husky install"
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Zyw_w",
@@ -14,13 +14,18 @@
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@mistjs/eslint-config-vue-jsx": "^0.0.5",
+    "@mistjs/tsconfig": "^1.0.0",
     "@mistjs/tsconfig-vue": "^0.0.3",
     "@types/node": "^18.15.5",
     "eslint": "^8.36.0",
-    "husky": "^8.0.3",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.0",
     "prettier": "^2.8.5",
     "typescript": "^5.0.2",
     "vite": "^4.2.1",
     "vitest": "^0.29.7"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue,ts,tsx}": "eslint --fix"
   }
 }
