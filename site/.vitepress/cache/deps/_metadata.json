@@ -1,25 +1,35 @@
 {
-  "hash": "42dbc090",
-  "browserHash": "fcee3adc",
+  "hash": "ec9d9d13",
+  "browserHash": "1603739b",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.2.47/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "198f242d",
+      "fileHash": "12c7eeb7",
       "needsInterop": false
     },
     "@vue/devtools-api": {
       "src": "../../../../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "7e2e8635",
+      "fileHash": "2a78359e",
       "needsInterop": false
     },
     "vite-plugin-vitepress-demo/theme": {
       "src": "../../../../node_modules/.pnpm/vite-plugin-vitepress-demo@2.0.0-alpha.8_64eztyruiyhjmfhrimcd43ho3a/node_modules/vite-plugin-vitepress-demo/dist/theme/index.mjs",
       "file": "vite-plugin-vitepress-demo_theme.js",
-      "fileHash": "aab84728",
+      "fileHash": "b7567c09",
+      "needsInterop": false
+    },
+    "@antd-tiny-vue/cssinjs": {
+      "src": "../../../../node_modules/.pnpm/@antd-tiny-vue+cssinjs@0.0.6_vue@3.2.47/node_modules/@antd-tiny-vue/cssinjs/dist/index.mjs",
+      "file": "@antd-tiny-vue_cssinjs.js",
+      "fileHash": "64a31a96",
       "needsInterop": false
     }
   },
-  "chunks": {}
+  "chunks": {
+    "chunk-LZPJ5JBW": {
+      "file": "chunk-LZPJ5JBW.js"
+    }
+  }
 }
