@@ -14,6 +14,7 @@
   "author": "Zyw_w",
   "license": "MIT",
   "devDependencies": {
+    "@antd-tiny-vue/cssinjs": "^0.0.6",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@mistjs/eslint-config-vue-jsx": "^0.0.5",
